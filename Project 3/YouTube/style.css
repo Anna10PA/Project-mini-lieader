@@ -1,0 +1,147 @@
+*{
+    color:white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.header{
+    margin-top:-10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width:30px;
+    padding-right:5px
+}
+.logo .bx{
+    font-size: 30px;
+    margin-right:20px
+}
+body{
+    background-color: rgb(20, 20, 20);
+    color:white
+}
+section{
+    width:1300px;
+}
+nav{
+    margin-top:20px;
+    margin-left:230px;
+    width:1200px;
+    display:flex;
+    justify-content: space-between;
+}
+nav button{
+    height:30px;
+    font-size:15px;
+    border-radius:5px;
+    border-style:none;
+    background-color: rgb(24, 24, 24);
+    cursor:pointer;
+    transition:0.2s;
+}
+#main{
+    background-color: grey;
+    transition:0.2s
+}
+#main:hover{
+    background-color: rgb(41, 41, 41);
+}
+.logo{
+    display:flex;
+    width:100px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:30px
+}
+#youtube{
+    font-size:xx-large;
+    color:red;
+    background-color: white;
+    border-radius:60%
+}
+.search{
+    width:530px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    border-radius:50px;
+    background: none;
+    border-style:groove;
+    height:40px;
+    width:600px;
+    font-size:16px;
+    padding-left:20px
+}
+#microphone{
+    font-size:x-large
+}
+video{
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.2s
+}
+video:hover{
+    border-radius: 2px;
+}
+.row{
+    width:1300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+main{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px
+}
+aside{
+    width:400px;
+    margin-top:-70px
+}
+aside:hover{
+    width:1000px
+}
+aside button{
+    width:200px;
+    text-align:left;
+    border-radius:15px;
+    height:40px;
+    font-size:18px;
+    border:none;
+    background: none;
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+    padding-left:20px;
+    font-weight: 100;
+    margin-top:12px;
+}
+aside button:hover{
+    background-color: rgb(44, 44, 44);
+}
+button:nth-child(1){
+    background-color: rgb(23, 23, 23);
+}
+.video{
+    width:380px;
+    transition:0.3s;
+    padding-left:30px;
+    box-shadow: 10px 10px 100px black;
+    padding-top:20px;
+    cursor:pointer;
+    border-radius:20px
+}
+.video:hover{
+    background-color: grey;
+}
+.a{
+    font-size:25px;
+    width:150px;
+    display:flex;
+    justify-content: space-around;
+    cursor:pointer
+}

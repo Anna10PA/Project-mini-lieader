@@ -1,0 +1,104 @@
+    /* All */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* bg */
+body{
+    background: linear-gradient(to right, rgb(10, 10, 255) , rgb(255, 10, 10));
+    height:650px;
+}
+
+    /* buttons */
+.Button{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+button{
+    background-color: darkcyan ;
+    width:100px;
+    height:100px;
+    font-size: 50px;
+    border-radius:30px;
+    border-width:0px;
+    cursor: pointer;
+    transition: background-color 0.2s ;
+}
+button:hover{
+    background-color: rgb(4, 215, 215) ;
+    border-width:3px;
+    box-shadow: 0px 10px 30px;
+    border-style:none;
+    transition: border-style, background-color 0.2s;
+}
+button:active{
+    border-style:double;
+    background-color: rgb(0, 0, 37);
+    border-color:gold
+}
+
+    /* Title */
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 10px 3px rgb(189, 189, 189);
+    animation: title 3s infinite alternate;
+}
+@keyframes title{
+    0%{
+        color:rgb(23, 156, 138)
+    }
+    100%{
+        color:crimson
+    }
+}
+
+    /* user, compiuter, result */
+.User, .compiuter, .Result {
+    display:flex;
+    align-items: center;
+    font-size: x-large;
+}
+.compiuter{
+    margin-left:80%;
+    margin-top:-420px;
+    color:rgb(80, 0, 0);
+    text-shadow: 1px 4px 2px rgb(182, 0, 0);
+}
+.User{
+    color:rgb(0, 3, 80);
+    margin-left:20px;
+    text-shadow: 2px 4px 2px rgb(1, 69, 88);
+}
+.Result{
+    margin-left:40%;
+    margin-top:-100px;
+    color:rgb(41, 0, 79);
+    text-shadow: 2px 4px 2px rgb(80, 33, 97);
+}
+
+
+/* score */
+.score{
+    margin-left:39%;
+    margin-top:-40px;
+    font-size:20px;
+}
+    /* compiuter */
+.CompiuterS{
+    color:rgb(80, 0, 0);
+    display:flex;
+    align-items: center;
+    margin-top: -40px;
+}
+    /* user */
+.UserS{
+    color:rgb(0, 3, 80);
+    display:flex;
+    align-items: center;
+}
+.game{
+    display:flex;
+    align-items: center;
+    margin-top:-40px;
+    color:rgb(60, 0, 0)
+}

@@ -1,0 +1,66 @@
+<!-- 
+ #) ფონის შეცვლა ;
+ #) კოდი 908009 ;
+ #) გულები (ანუ ცდები); 
+ #) დაიწეროს სწორია თუ არა; 
+ #) ტრანსფორმაცია ღილაკების და ინფუთების 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CODE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <select id="background" onchange="background()">
+            <option value="#000" >Dark Model</option>
+            <option value="rgb(0, 20, 48)" selected>Night model</option>
+            <option value="dodgerblue">Dodgerblue</option>
+            <option value="turquoise">Turquoise</option>
+            <option value="firebrick">Firebrick</option>
+            <option value="rgb(100, 0, 0)">Red</option>
+            <option value="forestgreen">Forest Green</option>
+            <option value="rgb(0, 100, 0)">Green</option>
+            <option value="lime">Lime</option>
+            <option value="pink">Pink</option>
+            <option value="yellow">Yellow</option>
+            <option value="gold">Gold</option>
+            <option value="rgb(100, 100, 100)">Grey</option>
+            <option value="orange">Orange</option>
+            <option value="crimson">Crimson</option>
+            <option value="aqua">Aqua</option>
+            <option value="rgb(53, 152, 119)">Aquamarine</option>
+            <option value="cyan">Cyan</option>
+            <option value="darkcyan">Darkcyan</option>
+            <option value="navy">Navy</option>
+            <option value="rgb(100, 20, 40)">chocolade</option>
+            <option value="jade">Jade</option>
+            <option value="aliceblue">Aliceblue</option>
+            <option value="azure">Azure</option>
+        </select>
+        <div class="heart">
+            <i class='bx bxs-heart' id="heart1"></i>
+            <i class='bx bxs-heart' id="heart2"></i>
+            <i class='bx bxs-heart' id="heart3"></i>
+        </div>
+    </nav>
+    <div class="all">
+        <div class="answer">
+            <div id="errorText"></div>
+            <div id="correctText"></div>
+        </div>
+        <div class="code">
+            <input type="text" id="p1" maxlength="1" placeholder="0">
+            <input type="text" id="p2" maxlength="1" placeholder="0">
+            <input type="text" id="p3" maxlength="1" placeholder="0">
+            <input type="text" id="p4" maxlength="1" placeholder="0">
+            <input type="text" id="p5" maxlength="1" placeholder="0">
+            <input type="text" id="p6" maxlength="1" placeholder="0">
+        </div>
+        <button onclick="check()">Check</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

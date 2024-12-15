@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./youtube.png">
+    <title>Youtube</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <i class='bx bx-menu'></i>
+                <img src="./youtube.png" alt="">
+                <h2>YouTube</h2>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="search" list="search">
+                <i class='bx bx-microphone' id="microphone"></i>
+                <datalist id="search">
+                    <option value="Html">Html</option>
+                    <option value="java">java</option>
+                </datalist>
+            </div>
+            <div class="a">
+                <i class='bx bx-video-plus' ></i>
+                <i class='bx bx-bell' ></i>
+                <i class='bx bxs-user' ></i>
+            </div>
+        </div>
+        <nav>
+            <button id="main">All</button>
+            <button>Music</button>
+            <button>Mixes</button>
+            <button>Playlist</button>
+            <button>Contemporary R&B</button>
+            <button>Indie pop music</button>
+            <button>Synthpop</button>
+            <button>J-pop</button>
+            <button>AMVs</button>
+            <button>live</button>
+            <button>Rapping</button>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <button><i class='bx bxs-home' ></i>  Home</button>
+            <br>
+            <button><i class='bx bxs-video' ></i> Shorts</button>
+            <br><hr>
+            <button><i class='bx bx-time-five' ></i> History</button><br>
+            <button><i class='bx bxs-playlist' ></i> Playlist</button><br>
+            <button>You ></button><br>
+            <button><i class='bx bxs-like' ></i>liked video</button>
+        </aside>
+        <section>
+            <div class="row">
+                <div class="video">
+                    <video muted width="350px" id='pause'>
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/mp4">
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/ogg">
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/webm">
+                    </video>
+                    <p>Emily Mei - Monster Under The Bed (Official Music<br> Video)</p>
+                </div>
+                <div class="video">
+                    <video class='pause' width="350px">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/mp4">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/ogg">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/webm">
+                    </video>
+                    <p>Taylor Swift - Blank Space</p>
+                </div>
+                <div class="video">
+                    <video class='pause' width="350px">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4' type="video/mp4">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4'  type="video/ogg">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4'  type="video/webm">
+                    </video>
+                    <p>Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. <br> T-Pain</p>
+                </div>
+            </div><br><br>
+                        <div class="row">
+                <div class="video">
+                    <video muted width="350px" id='pause'>
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/mp4">
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/ogg">
+                        <source src='./video/Emily Mei - Monster Under The Bed (Official Music Video).mp4' type="video/webm">
+                    </video>
+                    <p>Emily Mei - Monster Under The Bed (Official Music<br> Video)</p>
+                </div>
+                <div class="video">
+                    <video class='pause' width="350px">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/mp4">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/ogg">
+                        <source src='./video/Taylor Swift - Blank Space.mp4' type="video/webm">
+                    </video>
+                    <p>Taylor Swift - Blank Space</p>
+                </div>
+                <div class="video">
+                    <video class='pause' width="350px">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4' type="video/mp4">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4'  type="video/ogg">
+                        <source src='./video/Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. T-Pain.mp4'  type="video/webm">
+                    </video>
+                    <p>Pitbull - Hey Baby (Drop It To The Floor) (Lyrics) ft. <br> T-Pain</p>
+                </div>
+            </div>
+            
+        </section>
+        <br><br>
+    </main>
+    <script>
+        const video = document.getElementsByClassName('pause');
+        video.addEventListener('mouseenter', () => {
+        video.play();
+        });
+        video.addEventListener('mouseleave', () => {
+        video.pause();
+        });
+    </script>
+</body>
+</html>

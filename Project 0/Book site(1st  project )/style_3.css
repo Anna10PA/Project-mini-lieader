@@ -1,0 +1,144 @@
+/* site bg color (body color) */
+body{
+    animation: colortransition 6s infinite alternate;
+}
+@keyframes colortransition {
+    0% {
+        background-color: #020012;
+    }
+    45%{
+        background-color: rgb(36, 71, 0);
+    }
+    70%{
+        background-color: rgb(96, 4, 23);
+    }
+    100% {
+        background-color: #337479;
+    }
+    }
+
+    /* img */
+img{
+    height:300px;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin-left:25px;
+    min-height: 40px;
+}
+img:hover{
+    color:rgb(33, 33, 33);
+    box-shadow: 10px 10px 100px;
+}
+/* title */
+h1{
+    margin-top: 10px;
+    margin-left: 90px
+    }
+h2{
+    margin-top: 10px;
+    margin-left: 30px
+}
+/* Nav  */
+ul{
+    margin-left: 64%;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 35px;    
+}
+/* title */
+h1{
+    margin-top: 20px;
+}
+
+/* all icon bx */
+.bx{
+    font-size: x-large;
+}
+
+/* recomendit books reitings */
+.Book_0 {
+    color:yellow;
+    margin-left:35px
+}
+.Book_1{
+    color:yellow;
+    margin-left:270px; 
+    margin-top: -30px
+}
+.Book_2{
+    color:yellow;
+    margin-left:505px; 
+    margin-top: -30px
+}
+
+/* about programing books */
+.Book_3 {
+    color:yellow;
+    margin-left:45px
+}
+.Book_4{
+    color:yellow;
+    margin-left:310px; 
+    margin-top: -30px
+}
+.Book_5{
+    color:yellow;
+    margin-left:560px; 
+    margin-top: -30px
+}
+.Book_6{
+    color:yellow;
+    margin-left:820px; 
+    margin-top: -30px
+}
+.Book_7{
+    color:yellow;
+    margin-left:1060px; 
+    margin-top: -30px
+}
+.Book_8{
+    color:yellow;
+    margin-left:1290px; 
+    margin-top: -30px
+}
+/* Detective & fantasy books and kids*/
+.Book_9, .Book_15{
+    color:yellow;
+    margin-left:35px
+}
+.Book_10, .Book_16{
+    color:yellow;
+    margin-top: -30px;
+    margin-left:265px;
+}
+.Book_11, .Book_17{
+    color:yellow;
+    margin-top: -30px;
+    margin-left:505px;
+}
+.Book_12, .Book_18{
+    color:yellow;
+    margin-top: -30px;
+    margin-left:735px;
+}
+.Book_13, .Book_19{
+    color:yellow;
+    margin-top: -30px;
+    margin-left:975px;
+}
+.Book_14, .Book_20{
+    color:yellow;
+    margin-top: -30px;
+    margin-left:1205px;
+}
+/* add button */
+button{
+    background-color: green;
+    border-radius: 4px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(0, 255, 0); 
+}

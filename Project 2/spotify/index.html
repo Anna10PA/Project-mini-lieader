@@ -1,0 +1,272 @@
+<!-- 4) ეცადეთ გააკეთოთ მუსიკების საიტი როგორც spotify -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="Web icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfqf6F3od2aaCpB_2wSudARaUV-RSl-jEhNg&s">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGrOmewN0-PkGMaEfTSFThDciD4hewGZb4frEKExeF60u5SZfTlVGGEJBSNltSiPuyfY&usqp=CAU" alt="spotify clone" title="Spotify" id="Spotify">
+        <button id="home">
+            <i class='bx bx-home-alt' title="home" id="home_logo" ></i>
+        </button>
+        <input type="search" placeholder="What do you want to play?" id="search">
+        <label for="search"><i class='bx bx-search' id="search_logo" title="search"></i></label>
+        <a href="Sing up.html"><button id="Sign_up"><b>Sign up</b></button></a>
+        <a href="Log in.html"><button id="Log_in"><b>Log in</b></button></a>
+    </header>
+    <main>
+        <aside>
+            <div class="aside_title">
+                <h3 title="Collaplse Your Library"><i class='bx bx-library'></i> Your Library</h3>
+                <i class='bx bx-plus' title="Create playlist or folder "></i>
+            </div>
+            <div class="scroll">
+                <div class="first">
+                    <h4><b>Create your first playlist</b></h4>
+                    <p>it's easy, we'll help you</p>
+                    <button onclick="alert(`Create a playlist: \nLog in to create and share playlists.`)"><b>Create playlist</b></button>
+                </div><br>
+                <div class="second"><br>
+                    <h4><b>Let's find some podcasts to follow</b></h4>
+                    <p>We'll keep your updated on new episodes</p><br>
+                    <button><b>Browse podcasts</b></button>
+                </div>
+            </div><br>
+        
+            <!-- footer in aside -->
+            <div class="footer">
+                <h6>Legal</h6>
+                <h6>Sefety&Privacy Center</h6>
+                <h6>Privacy Policy</h6>
+            </div>
+            <div class="footer">
+                <h6>Cookies</h6>
+                <h6>About Ads</h6>
+                <h6>Accessibility</h6>
+                <h6><a href="#">Cookies</a></h6>
+            </div><br><br>
+            <button id="language"><b><i class='bx bx-globe'></i>English</b></button>
+        </aside>
+        <article>
+            <!-- artists -->
+            <div class="article_scrol">
+                <div class="a">
+                    <h2>Popular artists</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="all">
+                    <div class="artists">
+                        <img src="https://pyxis.nymag.com/v1/imgs/a5f/165/cf12f71bac777059733b1b9fdb498894d5-billie-eilish-new-album.1x.rsquare.w1400.jpg" alt="Billie Eilish"><br>
+                        <b>Billie Eilish</b>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="artists">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwxmIqFETmj7KcYGoFGdu7TtpnxQ9VnzNpFQ&s" alt="The Weeknd">
+                        <b>The Weeknd</b>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="artists">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/kenrick_lamar_photo_by_jason_merritt_getty_images_entertainment_getty_476933160.jpg?crop=1xw:1.0xh;center,top&resize=640:*" alt="kenrick lamar">
+                        <b>kendrick lamar</b>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="artists">
+                        <img src="https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f" alt="arctic monkeys">
+                        <b>Arctic Monkeys</b>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="artists">
+                        <img src="https://pbs.twimg.com/media/F-lf_aUXEAA-nlR.jpg" alt="Lana Del Rey">
+                        <b>Lana Del Rey</b>
+                        <h5>Artist</h5>
+                    </div>
+                    <div class="artists">
+                        <img src="https://resources.tidal.com/images/b5fc9952/f318/48ee/94f7/1d1f390f2871/750x750.jpg" alt="imagine dragons"><br>
+                        <b>Imagine Dragons</b>
+                        <h5>Artist</h5>
+                    </div>
+                </div>
+                <!-- Popular albums -->
+                <div class="a">
+                    <h2>Popular albums</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="all">
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273ebc8cfac8b586bc475b04918"><br>
+                        <b>Born to die</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273046527a9c176f7c2916f3530"><br>
+                        <b>Him & I</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d00001e022ffa4a6f632442bba9fce6cd" ><br>
+                        <b>Zombie </b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://images.genius.com/2d165f06ff4b313824f0b685593b6ead.1000x1000x1.png"><br>
+                        <b>Mr.Saxobeat</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://studinfociu.home.blog/wp-content/uploads/2019/04/401px-baobob_tree.jpg" alt=""><br>
+                        <b>შიშველი ხეები</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273af10f15507cfb02ac2d37fbb" alt=""><br>
+                        <b>I am Good</b>
+                    </div>
+                </div><br><br>
+                <!-- Best 2023 musics -->
+                <div class="a">
+                    <h2>Popular music of 2023</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="all">
+                    <div class="popular">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/00/1b/70/caption.jpg?w=1200&h=-1&s=1"><br>
+                        <b>INTRO</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbQCeoL9PlF5wt7ylWWuGO2XhWqeXTnnS5g&s" alt=""><br>
+                        <b>We can't be friends</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/8/81/Keshatakeitoff200.jpg" ><br>
+                        <b>take it off</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273db1949fa5a27699706926bb4"><br>
+                        <b>Can't Get Enough</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://images.genius.com/a978c1e411e2683963f04aa29fedee94.1000x1000x1.jpg"><br>
+                        <b>Strange</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-FRW7O3xVDO28jvPU-IhmyDg-t500x500.jpg"><br><b>Metamorphosis</b>
+                    </div>
+                </div> <br><br>
+                <div class="a">
+                    <h2>Listen often</h2>
+                    <h5>Show all</h5>
+                </div> 
+                <div class="all">
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-6i7yLHVEHNCdOekK-f2FY4A-t500x500.jpg"><br>
+                        <b>Poor</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2fqSTt7JV08T0STlILdp22bViG3NKGVji1Q&s"><br>
+                        <b>Apocalypse</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273bb8981af04f38a53e2be34f5"><br>
+                        <b>Try Again</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-ZdWRPEsNe2v1Pbz1-x4IBoA-t500x500.jpg"><br>
+                        <b>let the world burn</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-000165920689-tfznia-t500x500.jpg"><br>
+                        <b>Iron (nightcore)</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://c.saavncdn.com/142/Scream-Shout-sped-up-Remix-English-2023-20230224205459-500x500.jpg"><br>
+                        <b>Scream and shout</b>
+                    </div>
+                </div><br><br>
+                <div class="a">
+                    <h2>Popular music of 2024</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="all">
+                    <div class="popular">
+                        <img src="https://linkstorage.linkfire.com/medialinks/images/ea7e4be9-1c1a-4d8f-b4c4-23e61fbb989b/artwork-440x440.jpg"><br>
+                        <b>Heartbeat</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-3zsyBTp2OhUYVxuL-U8zBiA-t500x500.jpg"><br>
+                        <b>Heavy Metal Lover </b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02fc53a1d990db47eb50e4370a"><br>
+                        <b>Safari</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://i1.sndcdn.com/artworks-o8eSmxHaWvMf-0-t500x500.png"><br>
+                        <b>Dice and Roll</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuBQJjOAbtYXezKHHDa_Dd9mfLpSN1CVXMw&s"><br>
+                        <b>Way down we go</b>
+                    </div>
+                    <div class="popular">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsTpc0kkV4e4rduhmK6Wf7KT27AOUm8G0A6w&s"><br>
+                        <b>Royalty</b>
+                    </div>
+                </div>
+                <div class="footer_2">
+                    <div class="title">
+                        <ul>
+                            <li><p><b>Company</b></p></li>
+                            <li><p>About</p></li>
+                            <li><p>Jobs</p></li>  
+                            <li><p>For the Record</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="title">
+                        <ul>
+                            <li><p><b>Communities
+                            </b></p></li>
+                            <li><p>Developers</p></li>
+                            <li><p>Advertising</p></li>  
+                            <li><p>Investors</p></li>
+                            <li><p>Vendors</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="title">
+                        <ul>
+                            <li><p><b>Useful links</b></p></li>
+                            <li><p>Support</p></li>
+                            <li><p>Free Mobile App</p></li>  
+                        </ul>
+                    </div>
+
+                    <div class="title">
+                        <ul>
+                            <li><p><b>Spotify Plans</b></p></li>
+                            <li><p>Premium Individual</p></li>
+                            <li><p>Premium Duo</p></li>  
+                            <li><p>Premium Family</p></li>
+                            <li><p>Premium Student</p></li>
+                            <li><p>Spotify Free</p></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <i class='bx bxl-instagram' title="Instagram"></i>
+                        <i class='bx bxl-twitter' title="Twitter"></i>
+                        <i class='bx bxl-facebook-circle' title="Facebook" ></i>
+                    </div>
+                </div>
+                <hr>
+                <h1>2024 Spotify clone</h1>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p><strong>Preview of Spotify</strong><br>
+        Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed</p>
+        <button onclick="alert(`Spotify clone Project for the presentation of the project`)"><b>About ME</b></button>
+    </footer>
+</body>
+</html>

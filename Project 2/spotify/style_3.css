@@ -1,0 +1,110 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(240, 239, 239)
+}
+body{
+    height:auto;
+    background-color:rgb(7, 7, 7)
+}
+/* header */
+header .bx{
+    font-size:45px;
+}
+header{
+    margin-top:5%;
+    text-align: center;
+}
+h1{
+    font-size:45px
+}
+/* article */
+article{
+    padding-left: 40%;
+    margin-top:3%
+}
+article button{
+    background-color: rgb(67, 155, 67);
+    color:white;
+    width:325px;
+    height:50px;
+    border-style:none;
+    border-radius:30px;
+    font-size:17px;
+    cursor:pointer
+}
+article button:hover{
+    background-color: rgb(20, 182, 20);
+}
+article button:active{
+    background-color: rgb(14, 125, 14);   
+}
+input{
+    width:300px ;
+    height:50px;
+    border-radius:3px;
+    border-width:1px;
+    background:none;
+    border-style:groove;
+    padding-left: 20px ;
+    transition: background-color 0.2s;
+    font-size:17px
+}
+input:hover{
+    background-color: rgb(53, 53, 53);
+    border-color:grey;
+    border-style: none;
+}
+
+/* aside */
+aside button{
+    color:rgb(224, 222, 222);
+    width:325px;
+    height:50px;
+    font-size:large;
+    border-radius: 30px;
+    border-style: groove;
+    background: none;
+    border-width:1px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+    border-color:white;
+    cursor:pointer;
+    transition: border-color 0.5s;
+}
+aside button:hover{
+    border-width:2px;
+    border-color:rgb(150, 149, 149);  
+}
+.with_app .bx{
+    font-size:25px
+}
+.with_app{
+    margin-left:33%;
+    width:333px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+/* footer */
+footer{
+    margin-top:1%;
+    background-color:rgb(19, 19, 19);
+    text-align: center;
+    padding-top: 2%;
+    height:100px
+}
+footer h3{
+    font-size:15px;
+    color:rgb(160, 160, 160);
+
+}
+footer p, u{
+    margin-top:30px;
+    font-size:11px;
+    color:rgb(160, 160, 160)
+}
+footer u{
+    cursor:pointer
+}
