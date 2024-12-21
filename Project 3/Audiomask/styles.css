@@ -1,0 +1,319 @@
+/* header */
+*{
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+.Image{
+    background-image: url('https://unity.com/_next/image?url=https%3A%2F%2Fcdn.bfldr.com%2FS5BC9Y64%2Fat%2F99vfr774rp993r7rhcccfv7%2FAudiomack-header_image.png%3Fauto%3Dwebp&w=3840&q=75');
+    background-position: center;
+    background-size: cover;
+    width:90%;
+    height:40%;
+    margin-top:20px;
+    margin-left:3%
+}
+.Image h3{
+    opacity: 1;
+    color:orange;
+    font-size:25px;
+    text-align: right;
+    padding-right:30px;
+    padding-top:20px;
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition:0.5s
+}
+
+.b{
+    display:flex;
+    justify-content: space-around;
+    margin-top:14%
+}
+
+.b button{
+    background-color: orange;
+    color:white;
+    font-weight:600;
+    border-radius:100px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:15px;
+    border-style:none;
+    cursor:pointer;
+    transition:0.5s
+}
+.Image button:hover{
+    opacity: 0.7;
+}
+.Image button:active{
+    opacity: 1;
+    background-color: white;
+    color:orange
+}
+.Image img{
+    width:90%
+}
+
+aside a{
+    text-decoration: none;
+    color:white
+}
+section h1{
+    text-align: center;
+    font-size:50px;
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: color_transform 2s infinite alternate;
+    cursor:pointer;
+}
+section button{
+    background: none;
+    color:white;
+    border-style:groove;
+    border-width: 3px;
+    border-color: orange;
+    font-size:15px;
+    border-radius:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    cursor:pointer
+}
+@keyframes color_transform{
+    0%{
+        color:orange;
+        text-shadow:1px 1px 10px white
+    }
+    100%{
+        color:white;
+        text-shadow: 1px 1px 5px orange
+    }
+}
+header{
+    background: none;
+    backdrop-filter: blur(1px);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    background-color: rgba(20, 20, 20, 0.8);
+    color:white;
+    border-bottom-style: groove;
+    border-width:1px;
+}
+header li{
+    list-style: none;
+    display:inline;
+    margin-left:15px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:18px
+}
+header li:hover{
+    color:orange
+}
+header h1{
+    font-size:25px;
+    font-weight: 700;
+    cursor:pointer
+}
+.header{
+    margin-left:15px;
+    display:flex;
+    align-items: center;
+}
+.header p{
+    font-size:16px;
+    font-weight:500;
+    cursor:pointer
+}
+.header p:hover{
+    color:orange
+}
+#search{
+    width:300px;
+    height:40px;
+    font-size:15px;
+    border-radius:50px;
+    padding-left:20px;
+    background-color:rgb(44, 44, 44);
+    border-style:none
+}
+#sr{
+    color:orange;
+    font-size:20px
+}
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header label{
+    margin-left:50px
+}
+.nav2{
+    width:250px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fi{
+    font-size:20px;
+    padding-right:10px
+}
+.nav2 button{
+    width:130px;
+    height:40px;
+    font-size:17px;
+    font-weight: bolder;
+    border-radius:60px;
+    border-style:none;
+    background-color: rgb(44, 44, 44);
+    color:white;
+    cursor:pointer
+}
+#logo, p b{
+    color:orange;
+    cursor:pointer;
+    align-items: center;
+}
+#logo{
+    font-size:30px;
+    align-items: center;
+}
+
+/* body */
+body{
+    background: linear-gradient(rgb(20, 20, 20), rgb(11, 11, 11));
+    color:white;
+}
+
+
+/* main */
+main{
+    display:flex
+}
+/* aside */
+
+aside button{
+    font-weight:600;
+    background: none;
+    color:white;
+    border-radius:50px;
+    border-style:groove;
+    border-width:1px;
+    height:40px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:100;
+    margin-left:7%;
+    border-color:white;
+    transition:0.1s
+}
+aside button:hover{
+    color:orange;
+    border-color:orange
+}
+aside{
+    width:21%;
+    height:650px;
+}
+aside img{
+    width:340px
+}
+
+.title{
+    color:orange;
+    margin-bottom:30px;
+    margin-top:30px;
+    margin-left:40px;
+    font-weight: 800;
+}
+aside ul li{
+    list-style-type: none;
+    margin-top:25px;
+    margin-bottom:30px;
+    cursor:pointer;
+    transition:0.1s
+}
+aside ul li:hover{
+    color:orange;
+}
+.aside{
+    overflow-y: scroll;
+    height:630px;
+    width:120%
+}
+aside img{
+    padding-left:6%
+}
+
+/* article */
+section{
+    padding-left:20px;
+    margin-left: 80px;
+    height:630px;
+    width:1400px;
+    overflow-y: auto;
+}
+section img{
+    height:300px;
+}
+.article{
+    width:1000px
+}
+section .edd{
+    width:200px;
+    height:200px;
+}
+.Alboms img{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    transform:0.2s
+}
+
+.Alboms{
+    margin-top:50px;
+    width:1000px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:70px;
+    margin-left:20px
+}
+.Albom{
+    padding-top:20px;
+    cursor:pointer;
+    border-radius:2px;
+    transition:0.5s;
+    text-align:center;
+    transition:0.5s
+}
+
+.play{
+    opacity: 0;
+}
+.play:hover{
+    opacity: 1;
+}
+h2{
+    color:white;
+    text-shadow:2px 0px 1px rgb(198, 129, 2);
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+h2:hover{
+    color:orange;
+    text-shadow: 0px 0px 30px rgb(138, 90, 0);
+}
