@@ -5,9 +5,7 @@
     font-weight: 600;
     font-style: normal;
 }
-/* html{
-    scroll-behavior: smooth;
-} */
+
 .Image{
     background-image: url('https://unity.com/_next/image?url=https%3A%2F%2Fcdn.bfldr.com%2FS5BC9Y64%2Fat%2F99vfr774rp993r7rhcccfv7%2FAudiomack-header_image.png%3Fauto%3Dwebp&w=3840&q=75');
     background-position: center;
@@ -291,12 +289,6 @@ section .edd{
     border-radius:10px;
     transform:scale(1.1);
     color:orange
-}
-.play{
-    opacity: 0;
-}
-.play:hover{
-    opacity: 1;
 }
 h2{
     color:white;

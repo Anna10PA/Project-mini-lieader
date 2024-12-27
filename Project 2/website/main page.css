@@ -1,0 +1,122 @@
+*{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+:root{
+    --color :  rgb(3, 46, 84)
+}
+header nav li{
+    display:inline;
+    margin-left:20px;
+    font-size:30px;
+    cursor:pointer;
+    transition:0.5s
+}
+header nav li:hover{
+    font-size:35px;
+    text-shadow: 0px 0px 10px white;
+}
+body{
+    background-color: rgb(0, 1, 8);
+    color:white;
+    height:90vh;
+}
+main{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+aside{
+    backdrop-filter: blur(20px);
+    background-color:var(--color);
+    width:100%;
+    padding:50px
+}
+#Audio{
+    border-radius:50px 0px 0px 50px
+}
+#Book{
+    border-radius:0px 50px 50px 0px
+}
+
+aside ul li{
+    font-size:25px;
+}
+aside ul{
+    list-style-type: circle;
+}
+aside ul li a{
+    color:white;
+    line-height:1.5;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    font-size:50px;
+    font-weight: bolder;
+}
+.bxs-moon{
+    font-size:80px;
+    opacity: 0.8;
+    animation:moon 30s infinite  ;
+    text-shadow:0px 0px 20px white
+}
+.bxs-cloud{
+    font-size:80px;
+    opacity: 0.8;
+    animation:clouds 30s infinite  ;
+    text-shadow:0px 0px 20px white   
+}
+/* @keyframes clouds{
+    0%{
+        transform:translate(-100px, -300px) ;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.9;
+    }
+    100%{
+        transform:translate(1000px, -300px) ;
+        opacity: 0;
+    }
+}
+@keyframes moon{
+    0%, 100%{
+        transform:translate(300px, -300px);
+    }
+    25%{
+        transform:translate(310px, -310px);
+    }
+    50%{
+        transform:translate(320px, -300px);
+        
+    }
+} */
+
+.conteiner{
+    backdrop-filter: blur(20px);
+    width:700px;
+    height:500px;
+    background-color:rgba(3, 46, 84, 0.3);
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+    overflow: hidden;
+    border-radius:2px;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    margin-right:5%
+}
+h2, h3{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size:30px;
+    color:white;
+}

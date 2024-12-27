@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn & SingUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <i class='bx bxs-moon'></i>
+        <i class='bx bxs-cloud' style="margin-top:100px;"></i>
+        <i class='bx bxs-cloud'></i>
+        <i class='bx bxs-cloud' style="margin-top:300px;"></i>
+        <div class="conteiner">
+            <div class="singup" id="Singup">
+                <span id="singup"></span>
+                <form action="">
+                    <h2 id="singup">Sing up</h2>
+                    <input type="text" required name="Username" value="" placeholder="Username">
+                    <input type="email" required name="email" value="" placeholder="E-mail">
+                    <input type="password" required value="" name="password" placeholder="Password">
+                    <div class="cover">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+                <div class="information">
+                    <div class="text">
+                        <h3>Hello Costumer !</h3>
+                        <p>Please read the <a href="##">terms and conditions</a> before registering. If you are already registered, please log in. </p>
+                        <a href="#login"><button>Login</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="login" id="Login" >
+                <form action="">
+                    <h2 id="login">Login</h2>
+                    <input type="text" name="username" required value="" placeholder="Username"> 
+                    <input type="password" name="username" required value="" placeholder="Password">
+                    <div class="cover">
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+                <div class="information">
+                    <div class="text">    
+                        <h3>Welcome</h3>            
+                        <p>Check out the latest news and see the best audiobooks or e-books. If you haven't registered yet, <a href="#singup">sign up</a>. what are you waiting ? (:</p>
+                        <a href="#singup"><button>Sing up</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
